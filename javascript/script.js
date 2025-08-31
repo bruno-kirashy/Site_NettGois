@@ -200,7 +200,7 @@ function imagensPortfolioNoiva() {
         c('.image_box_sec1').appendChild(div);
         div.classList.add('images_sec1');
         div.id = [i]
-        div.style.backgroundImage = "url(/imagens/"+portfolio.noiva[i]+")";
+        div.style.backgroundImage = "url(imagens/"+portfolio.noiva[i]+")";
     }
     for (var i = 0; i < 5; i++) {
         let buttons = ['.button_sec1','.button_sec2','.button_sec3','.button_sec4','.button_sec5'];
@@ -220,7 +220,7 @@ function imagensPortfolioAniversario() {
         c('.image_box_sec1').appendChild(div);
         div.classList.add('images_sec1');
         div.id = [i]
-        div.style.backgroundImage = "url(/imagens/"+portfolio.aniversario[i]+")";
+        div.style.backgroundImage = "url(imagens/"+portfolio.aniversario[i]+")";
     }
     for (var i = 0; i < 5; i++) {
         let buttons = ['.button_sec1','.button_sec2','.button_sec3','.button_sec4','.button_sec5'];
@@ -240,7 +240,7 @@ function imagensPortfolioFeminina() {
         c('.image_box_sec1').appendChild(div);
         div.classList.add('images_sec1');
         div.id = [i]
-        div.style.backgroundImage = "url(/imagens/"+portfolio.feminina[i]+")";
+        div.style.backgroundImage = "url(imagens/"+portfolio.feminina[i]+")";
     }
     for (var i = 0; i < 5; i++) {
         let buttons = ['.button_sec1','.button_sec2','.button_sec3','.button_sec4','.button_sec5'];
@@ -260,7 +260,7 @@ function imagensPortfolioCasal() {
         c('.image_box_sec1').appendChild(div);
         div.classList.add('images_sec1');
         div.id = [i]
-        div.style.backgroundImage = "url(/imagens/"+portfolio.casal[i]+")";
+        div.style.backgroundImage = "url(imagens/"+portfolio.casal[i]+")";
     }
     for (var i = 0; i < 5; i++) {
         let buttons = ['.button_sec1','.button_sec2','.button_sec3','.button_sec4','.button_sec5'];
@@ -281,7 +281,7 @@ function imagensPortfolioGestantes() {
         div.classList.add('images_sec1');
         div.id = [i]
         div.onclick="ClickModal()";
-        div.style.backgroundImage = "url(/imagens/"+portfolio.gestantes[i]+")";
+        div.style.backgroundImage = "url(imagens/"+portfolio.gestantes[i]+")";
     }
     for (var i = 0; i < 5; i++) {
         let buttons = ['.button_sec1','.button_sec2','.button_sec3','.button_sec4','.button_sec5'];
@@ -303,15 +303,15 @@ divModal.addEventListener('click', function (divModal) {
     c('.image_box_modal').style.opacity = '100%';
    }
    switch (selectPort) {
-    case '0':  c('.image_modal_img').style.backgroundImage = "url(/imagens/"+portfolio.noiva[key]+")";
+    case '0':  c('.image_modal_img').style.backgroundImage = "url(imagens/"+portfolio.noiva[key]+")";
     break;
-    case '1':  c('.image_modal_img').style.backgroundImage = "url(/imagens/"+portfolio.aniversario[key]+")";
+    case '1':  c('.image_modal_img').style.backgroundImage = "url(imagens/"+portfolio.aniversario[key]+")";
     break;
-    case '2':  c('.image_modal_img').style.backgroundImage = "url(/imagens/"+portfolio.feminina[key]+")";
+    case '2':  c('.image_modal_img').style.backgroundImage = "url(imagens/"+portfolio.feminina[key]+")";
     break;
-    case '3':  c('.image_modal_img').style.backgroundImage = "url(/imagens/"+portfolio.casal[key]+")";
+    case '3':  c('.image_modal_img').style.backgroundImage = "url(imagens/"+portfolio.casal[key]+")";
     break;
-    default:  c('.image_modal_img').style.backgroundImage = "url(/imagens/"+portfolio.gestantes[key]+")";
+    default:  c('.image_modal_img').style.backgroundImage = "url(imagens/"+portfolio.gestantes[key]+")";
     break;
    }
 })
