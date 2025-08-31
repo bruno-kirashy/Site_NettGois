@@ -182,23 +182,23 @@ header {
     height: 500px;
 }
 .box-img1 {
-    background-image: url(/imagens/Sliders/AQ3A4322tamanhomelhorado.jpg);
+    background-image: url(../imagens/Sliders/AQ3A4322tamanhomelhorado.jpg);
     background-size: cover;
 }
 .box-img2 {
-    background-image: url(/imagens/Sliders/AQ3A8573tamanhomelhorado.jpg);
+    background-image: url(../imagens/Sliders/AQ3A8573tamanhomelhorado.jpg);
     background-size: cover;
 }
 .box-img3 {
-    background-image: url(/imagens/Sliders/AQ3A8575tamanhomelhorado.jpg);
+    background-image: url(../imagens/Sliders/AQ3A8575tamanhomelhorado.jpg);
     background-size: cover;
 }
 .box-img4 {
-    background-image: url(/imagens/Sliders/AQ3A7838tamanhomelhorado.jpg);
+    background-image: url(../imagens/Sliders/AQ3A7838tamanhomelhorado.jpg);
     background-size: cover;
 }
 .box-img5 {
-    background-image: url(/imagens/Sliders/AQ3A7818.jpg);
+    background-image: url(../imagens/Sliders/AQ3A7818.jpg);
     background-size: cover;
     background-position: center;
 }
