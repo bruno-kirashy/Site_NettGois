@@ -24,7 +24,7 @@ Landing page criada para uma fotógrafa, com objetivo de apresentar portfólio, 
 
 # Demonstração
 
- [Clique aqui](link) para visualizar a página diretamente do seu github.
+ [Clique aqui](https://bruno-kirashy.github.io/Site_NettGois) para visualizar a página diretamente do seu github.
 
 ## Contato
 
